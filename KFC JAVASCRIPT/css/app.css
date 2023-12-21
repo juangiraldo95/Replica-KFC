@@ -1,0 +1,91 @@
+body{
+    background-color: #dddddd;
+}
+.theme-light .price{
+   font-size: 20px;
+   font-weight: bolder;
+}
+.theme-light .name-product{
+    font-size: 20px;
+    font-weight: bold;
+}
+.theme-light .description-product{
+   font-size: 15px;
+   font-weight: lighter;
+}
+
+.theme-light .button-buy{
+    background-color: #E5002B;
+    color: white;
+    padding: 7px;
+    border:none;
+    width: 100%;
+    border: 1px solid #E5002B ;
+    font-weight: bolder;
+ }
+ .theme-light .button-buy:hover{
+    background-color: white;
+    border:1px solid #E5002B;
+    color: #E5002B;
+
+ }
+ .theme-light footer{
+    margin-top: 20px;
+    background-color: #E5002B;
+    color: white;
+    padding: 35px;
+ }
+
+ /*Modo oscuro*/
+
+.theme-dark{
+   background-color: #1a1a1a;
+}
+
+
+.theme-dark .price {
+   font-size: 20px;
+   font-weight: bolder;
+   color: #ffffff;
+}
+
+.theme-dark .name-product {
+   font-size: 20px;
+   font-weight: bold;
+   color: #ffffff; 
+}
+
+.theme-dark .description-product {
+   font-size: 15px;
+   font-weight: lighter;
+   color: #cccccc; 
+}
+
+.theme-dark .button-buy {
+   background-color: #ffffff; 
+   color: #1a1a1a; 
+   padding: 7px;
+   border: none;
+   width: 100%;
+   border: 1px solid #ffffff; 
+   font-weight: bolder;
+}
+
+.theme-dark .button-buy:hover {
+   background-color: #1a1a1a;
+   border: 1px solid #ffffff;
+   color: #ffffff;
+}
+
+.theme-dark footer {
+   margin-top: 20px;
+   background-color: #302525;
+   color: #ffffff;
+   padding: 35px;
+}
+.theme-dark .card{
+   background-color: #302525;
+}
+.card{
+   width: 300px;
+}
